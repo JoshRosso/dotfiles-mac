@@ -38,6 +38,7 @@ declare -a casks=(
 	"spectacle" 
 	"spotify" 
 	"vagrant" 
+	"intellij-idea" 
 	"zoomus" 
 )
 
