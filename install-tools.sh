@@ -22,6 +22,7 @@ declare -a brews=(
 	"pass"
 	"tmux"
 	"openssl"
+	"reattach-to-user-namespace"
 	"vim"
 	"wget"
 )

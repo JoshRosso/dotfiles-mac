@@ -2,6 +2,7 @@
 
 declare -a files=(
 	".vimrc"
+	".tmux.conf"
 	".vim"
 	".ssh"
 	".gitconfig"
