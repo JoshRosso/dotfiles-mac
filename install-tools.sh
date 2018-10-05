@@ -16,8 +16,7 @@ declare -a brews=(
 	"go"
 	"jq"
 	"kubernetes-cli"
-	"lua"
-	"vim"
+	"vim --with-cscope --with-python --with-lua --override-system-vim"
 	"the_silver_searcher"
 	"pass"
 	"tmux"
@@ -39,8 +38,9 @@ declare -a casks=(
 	"spectacle" 
 	"spotify" 
 	"vagrant" 
-	"intellij-idea" 
 	"zoomus" 
+	"1password" 
+	"vscode" 
 )
 
 # run installation of command-line programs
