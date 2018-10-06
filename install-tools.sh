@@ -40,7 +40,7 @@ declare -a casks=(
 	"vagrant" 
 	"zoomus" 
 	"1password" 
-	"vscode" 
+	"visual-studio-code"
 )
 
 # run installation of command-line programs
