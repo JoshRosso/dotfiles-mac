@@ -1,8 +1,10 @@
 #!/bin/bash
 
 # setup brew and brew cask
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew tap homebrew/cask
+if ! type "brew" > /dev/null; then
+	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	brew tap homebrew/cask
+fi
 
 # command-line programs to install with brew
 declare -a brews=(
@@ -41,6 +43,8 @@ declare -a casks=(
 	"zoomus" 
 	"1password" 
 	"visual-studio-code"
+	"dropbox"
+	"evernote"
 )
 
 # run installation of command-line programs
