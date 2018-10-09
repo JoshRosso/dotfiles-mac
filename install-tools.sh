@@ -26,11 +26,11 @@ declare -a brews=(
 	"reattach-to-user-namespace"
 	"vim"
 	"wget"
+	"kubernetes-helm"
 )
 
 # GUI programs to install with brew cask
 declare -a casks=(
-	"bartender" 
 	"docker" 
 	"google-chrome" 
 	"iterm2" 
@@ -45,6 +45,7 @@ declare -a casks=(
 	"visual-studio-code"
 	"dropbox"
 	"evernote"
+	"minikube"
 )
 
 # run installation of command-line programs
