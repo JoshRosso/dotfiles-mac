@@ -26,6 +26,7 @@ declare -a brews=(
 	"reattach-to-user-namespace"
 	"vim"
 	"wget"
+	"watch"
 	"kubernetes-helm"
 )
 
