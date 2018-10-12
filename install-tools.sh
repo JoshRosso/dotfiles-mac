@@ -46,6 +46,7 @@ declare -a casks=(
 	"dropbox"
 	"evernote"
 	"minikube"
+	"short-menu"
 )
 
 # run installation of command-line programs
