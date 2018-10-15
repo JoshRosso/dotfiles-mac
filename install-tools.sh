@@ -20,7 +20,6 @@ declare -a brews=(
 	"kubernetes-cli"
 	"vim --with-cscope --with-python --with-lua --override-system-vim"
 	"the_silver_searcher"
-	"pass"
 	"tmux"
 	"openssl"
 	"reattach-to-user-namespace"
